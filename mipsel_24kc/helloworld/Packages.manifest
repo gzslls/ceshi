@@ -1,0 +1,28 @@
+Package: luci-app-ssr-plus
+Version: 184-8
+Depends: libc, coreutils, coreutils-base64, dns2socks, dnsmasq-full, ipset, ip-full, iptables-mod-tproxy, lua, libuci-lua, microsocks, pdnsd-alt, tcping, resolveip, shadowsocksr-libev-ssr-check, uclient-fetch, kcptun-client, naiveproxy, redsocks2, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, shadowsocks-libev-ss-server, shadowsocks-rust-sslocal, shadowsocks-rust-ssserver, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, shadowsocksr-libev-ssr-server, simple-obfs, trojan, ipt2socks, v2ray-plugin, curl, xray-core
+Source: feeds/helloworld/luci-app-ssr-plus
+SourceName: luci-app-ssr-plus
+Section: luci
+SourceDateEpoch: 1624238056
+Architecture: all
+Installed-Size: 193154
+Filename: luci-app-ssr-plus_184-8_all.ipk
+Size: 193384
+SHA256sum: 8a8305b5a3e3b4a4ede9517a99a5e9a17d2ffe1a9806115a4465d897346d94f8
+Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Socks5/Tun LuCI interface
+
+Package: luci-i18n-ssr-plus-zh-cn
+Version: 184-8
+Depends: libc, luci-app-ssr-plus
+Source: feeds/helloworld/luci-app-ssr-plus
+SourceName: luci-i18n-ssr-plus-zh-cn
+Section: luci
+SourceDateEpoch: 1624238056
+Architecture: all
+Installed-Size: 6437
+Filename: luci-i18n-ssr-plus-zh-cn_184-8_all.ipk
+Size: 7298
+SHA256sum: ff50ea2c5926884aafabe6be6ca209b0a9fd751d0110c818ce80789230e4d0fd
+Description:  Translation for luci-app-ssr-plus - 简体中文 (Simplified Chinese)
+
